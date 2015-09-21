@@ -11,5 +11,8 @@
   "resolutions": [
     "720p"
   ],
+    "extension": {
+    "path": "extension.js"
+  },
   "license": "MIT"
 }
