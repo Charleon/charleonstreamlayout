@@ -1,0 +1,6 @@
+﻿{
+	"host": "localhost",
+	"port": "8338",
+	"id": "team1",
+	"oscaddress": "/ingame/keypress"
+}

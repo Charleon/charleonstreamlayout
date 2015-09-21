@@ -1,0 +1,100 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    background-color: transparent;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 1280px;
+    height: 720px;
+    overflow: hidden;
+    font-size: 18px;
+}
+
+#links {
+    color: #f4f4f5;
+    background-color: transparent;
+    font-family: "AvenirLTStd-Medium", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 36px;
+    position: absolute;
+    top: 1100px;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    width: 50.25%;
+    overflow-x: hidden;
+}
+
+#linktitle {
+    overflow: hidden;
+    color: #f4f4f5;
+    background-image: url('/view/charleonstreamlayout/img/SocialMediaTitle.png');
+    padding: 2px 30px;
+    vertical-align: middle;
+    height: 25px;
+    text-shadow: 0 0 2px rgba(150, 150, 150, .5);
+}
+
+#linktext {
+    font-size: 24px;
+    color: white;
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+    background-image: url('/view/charleonstreamlayout/img/SocialMediaBody.png');
+    height: 500px;
+    top: 0px; /* no idea why percentage doesn't work here */
+    text-overflow: ellipsis;
+    padding: 16px 30px;
+    line-height: 40px;
+    white-space: nowrap;
+    opacity: 0;
+}
+
+#twitter {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url('/view/charleonstreamlayout/img/twitter.png');
+    background-size: cover;
+    vertical-align: middle;
+}
+
+#youtube {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url('/view/charleonstreamlayout/img/youtube.png');
+    background-size: cover;
+    vertical-align: middle;
+}
+
+#twitch {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url('/view/charleonstreamlayout/img/twitch.png');
+    background-size: cover;
+    vertical-align: middle;
+}
+
+#website {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url('/view/charleonstreamlayout/img/website.png');
+    background-size: cover;
+    vertical-align: middle;
+}
+
+#onestep {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url('/view/charleonstreamlayout/img/onestep_stylized.png');
+    background-size: cover;
+    vertical-align: middle;
+}

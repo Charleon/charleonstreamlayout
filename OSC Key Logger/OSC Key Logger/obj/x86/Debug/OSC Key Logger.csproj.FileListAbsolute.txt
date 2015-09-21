@@ -1,0 +1,14 @@
+C:\Users\Love\documents\visual studio 2010\Projects\OSC Key Logger\OSC Key Logger\bin\Debug\OSC Key Logger.exe
+C:\Users\Love\documents\visual studio 2010\Projects\OSC Key Logger\OSC Key Logger\bin\Debug\OSC Key Logger.pdb
+C:\Users\Love\documents\visual studio 2010\Projects\OSC Key Logger\OSC Key Logger\bin\Debug\Ventuz.OSC.dll
+C:\Users\Love\documents\visual studio 2010\Projects\OSC Key Logger\OSC Key Logger\bin\Debug\Ventuz.OSC.xml
+C:\Users\Love\documents\visual studio 2010\Projects\OSC Key Logger\OSC Key Logger\obj\x86\Debug\OSC Key Logger.csprojResolveAssemblyReference.cache
+C:\Users\Love\documents\visual studio 2010\Projects\OSC Key Logger\OSC Key Logger\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Love\documents\visual studio 2010\Projects\OSC Key Logger\OSC Key Logger\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Love\documents\visual studio 2010\Projects\OSC Key Logger\OSC Key Logger\obj\x86\Debug\OSC Key Logger.csproj.GenerateResource.Cache
+C:\Users\Love\documents\visual studio 2010\Projects\OSC Key Logger\OSC Key Logger\obj\x86\Debug\OSC Key Logger.exe
+C:\Users\Love\documents\visual studio 2010\Projects\OSC Key Logger\OSC Key Logger\obj\x86\Debug\OSC Key Logger.pdb
+C:\Users\Love\documents\visual studio 2010\Projects\OSC Key Logger\OSC Key Logger\bin\Debug\settings.json
+C:\Users\Love\documents\visual studio 2010\Projects\OSC Key Logger\OSC Key Logger\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Love\documents\visual studio 2010\Projects\OSC Key Logger\OSC Key Logger\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Love\documents\visual studio 2010\Projects\OSC Key Logger\OSC Key Logger\bin\Debug\Newtonsoft.Json.xml
