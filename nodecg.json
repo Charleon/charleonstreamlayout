@@ -2,12 +2,12 @@
   "name": "charleonstreamlayout",
   "version": "0.0.1",
   "nodecgDependency": ">=0.5.0",
-  "homepage": "http://tipofthehats.org/",
+  "homepage": "http://twitch.tv/sethcharleon",
   "authors": [
-    "Alex Van Camp <email@alexvan.camp>",
-    "Anthony Oetzmann <aironaudio@googlemail.com>"
+    "Tobias Nerg <charleon@gmail.com>",
+    "Mattias Storm <xxx@gmail.com>"
   ],
-  "description": "A center-positioned grapic displaying a set of social media links",
+  "description": "A fully fledged stream layout",
   "resolutions": [
     "720p"
   ],

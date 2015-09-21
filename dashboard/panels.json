@@ -1,7 +1,7 @@
 [
   {
-    "name": "social-media-links",
-    "title": "Social Media Links",
+    "name": "CharleonStremLayout",
+    "title": "CharleonStremLayout",
     "width": 2,
     "file": "panel.jade",
     "faIcon": "fa-twitter"
