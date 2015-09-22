@@ -89,12 +89,3 @@ body {
     background-size: cover;
     vertical-align: middle;
 }
-
-#onestep {
-    display: inline-block;
-    width: 32px;
-    height: 32px;
-    background: url('/view/charleonstreamlayout/img/onestep_stylized.png');
-    background-size: cover;
-    vertical-align: middle;
-}

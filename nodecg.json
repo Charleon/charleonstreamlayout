@@ -1,7 +1,7 @@
 {
   "name": "charleonstreamlayout",
   "version": "0.0.1",
-  "nodecgDependency": ">=0.5.0",
+  "nodecgDependency": ">=0.6.0",
   "homepage": "http://twitch.tv/sethcharleon",
   "authors": [
     "Tobias Nerg <charleon@gmail.com>",

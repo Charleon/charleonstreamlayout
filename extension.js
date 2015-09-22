@@ -12,8 +12,7 @@ module.exports = function(nodecg) {
       console.log(arguments[0] + " " + arguments[1]);
 
       nodecg.sendMessage('keyEvent', {
-              'keyPos': 'key' + arguments[1],
-              'keyName': arguments[0]
+              'keyName': arguments[1]
             });
     });
 
