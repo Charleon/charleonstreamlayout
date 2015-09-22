@@ -16,15 +16,25 @@ body {
 
 #crackedwindow {
     background-color: transparent;
-	background-image: url('/view/charleonstreamlayout/img/CrackedWindow.png');
+    background-image: url('/view/charleonstreamlayout/img/CrackedWindow.png');
     position: absolute;
-	top: 33px;
-	left: 36px;
+    top: 33px;
+    left: 36px;
     padding: 0;
     width: 804px;
     height: 536px;
     overflow: hidden;
-	opacity: 0;
+    opacity: 0;
+}
+
+#shoryuken {
+    position: absolute;
+    top: 500px;
+    left: -50px;
+    padding: 0;
+    width: 804px;
+    height: 536px;
+    opacity: 1;
 }
 
 #links {

@@ -2,6 +2,9 @@
 
 $(function () {
     // pass data straight into our function that handles it, preferred for simplicity
+	var sup1 = new SuperGif({ gif: document.getElementById('shoryukenpic'), draw_while_loading: false,  loop_delay:2000, on_end:hideCrackedWindow} );
+	sup1.load();
+	sup1.pause();
 	setTimeout(showLinks, (10 * 2));
 	nodecg.listenFor('keyEvent', function (key) {
 	  switch (key.keyName) {
@@ -30,25 +33,33 @@ $(function () {
         volume: '0.15'      // not so loud please
     });
 	function showCrackedWindow() {
+		document.getElementById("shoryuken").style.opacity = "1";
 		// play sound
+		sup1.move_to(0);
+		sup1.play();
+
 		$.ionSound.play('socialmedia_in-v2');
 
 		var tm = new TimelineMax({paused: true});
 
 		//add our tweens to the timeline
-		tm.to($('#crackedwindow'), 0.05, {opacity: '1', ease: Quad.easeOut}, '0.0');
+		tm.to($('#crackedwindow'), 0.15, {opacity: '0.25', ease: Quad.easeOut}, '0.0');
+		tm.to($('#crackedwindow'), 0.15, {opacity: '0.50', ease: Quad.easeOut}, '0.7');
+		tm.to($('#crackedwindow'), 0.15, {opacity: '1.0', ease: Quad.easeOut}, '1.3');
 		tm.play();
 	}
 	function hideCrackedWindow() {
 		// play sound
+		sup1.pause();
 		$.ionSound.play('socialmedia_in-v2');
-
 		var tm = new TimelineMax({paused: true});
 
 		//add our tweens to the timeline
-		tm.to($('#crackedwindow'), 0.05, {opacity: '0', ease: Quad.easeOut}, '0.0');
+		tm.to($('#crackedwindow'), 0.15, {opacity: '0', ease: Quad.easeOut}, '0.0');
+		tm.to($('#shoryuken'), 0.15, {opacity: '0', ease: Quad.easeOut}, '0.0');
 		tm.play();
 	}
+
     function showLinks() {
         // play sound
         $.ionSound.play('socialmedia_in-v2');
