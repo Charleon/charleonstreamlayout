@@ -4,7 +4,7 @@ body {
 }
 
 #container {
-    background-color: transparent;
+    background-image: url('/view/charleonstreamlayout/img/Layout.png');
     position: absolute;
     margin: 0;
     padding: 0;
@@ -12,6 +12,19 @@ body {
     height: 720px;
     overflow: hidden;
     font-size: 18px;
+}
+
+#crackedwindow {
+    background-color: transparent;
+	background-image: url('/view/charleonstreamlayout/img/CrackedWindow.png');
+    position: absolute;
+	top: 33px;
+	left: 36px;
+    padding: 0;
+    width: 804px;
+    height: 536px;
+    overflow: hidden;
+	opacity: 0;
 }
 
 #links {
