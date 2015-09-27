@@ -14,6 +14,46 @@ body {
     font-size: 18px;
 }
 
+#shoryuken {
+    position: absolute;
+    top: 500px;
+    left: -50px;
+    padding: 0;
+    width: 804px;
+    height: 536px;
+    opacity: 1;
+}
+
+#bowser {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    padding: 0;
+    width: 804px;
+    height: 536px;
+    opacity: 1;
+}
+
+#objection {
+    position: absolute;
+    top: 500px;
+    left: 0px;
+    padding: 0;
+    width: 804px;
+    height: 536px;
+    opacity: 1;
+}
+
+#headbutt {
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    padding: 0;
+    width: 804px;
+    height: 536px;
+    opacity: 1;
+}
+
 #crackedwindow {
     background-color: transparent;
     background-image: url('/view/charleonstreamlayout/img/CrackedWindow.png');
@@ -27,15 +67,7 @@ body {
     opacity: 0;
 }
 
-#shoryuken {
-    position: absolute;
-    top: 500px;
-    left: -50px;
-    padding: 0;
-    width: 804px;
-    height: 536px;
-    opacity: 1;
-}
+
 
 #links {
     color: #f4f4f5;
